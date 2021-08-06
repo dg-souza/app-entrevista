@@ -1,10 +1,13 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
+  <v-app>
+    <div id="app">
+      <div id="nav">
+        <router-link to="/">Listar</router-link> |
+        <router-link to='/cadastrar'>Cadastrar</router-link>
+      </div>
+      <router-view/>
     </div>
-    <router-view/>
-  </div>
+  </v-app>
 </template>
 
 <style>
@@ -13,7 +16,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
 }
 
 #nav {
@@ -22,7 +25,7 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #f5f5f5d2;
 }
 
 #nav a.router-link-exact-active {
