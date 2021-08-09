@@ -1,10 +1,6 @@
 <template>
   <v-app>
     <div id="app">
-      <div id="nav">
-        <router-link to="/">Listar</router-link> |
-        <router-link to='/cadastrar'>Cadastrar</router-link>
-      </div>
       <router-view/>
     </div>
   </v-app>

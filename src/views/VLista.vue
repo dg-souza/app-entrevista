@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class='h1'>Lista de Cadastros</h1>
+        <h1 class='h1 mt-5'>Lista de Cadastros</h1>
         <lista-cadastro id='lista'/>
     </div>
 </template>
